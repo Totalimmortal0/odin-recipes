@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 16px;
+    border: 2px black solid;
+    text-align: center;
+    margin: 32px;
+}
+
+ol {
+    /* border: 2px black solid; */
+    list-style-position: inside;
+    text-align: center;
+    padding: 8px;
+}
