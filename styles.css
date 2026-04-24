@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(230, 235, 233);
+}
+
 .header {
     padding: 16px;
     border: 2px black solid;
@@ -11,9 +15,40 @@
     margin: 32px;
 }
 
-ol {
-    /* border: 2px black solid; */
+ol, ul {
     list-style-position: inside;
     text-align: center;
     padding: 8px;
+}
+
+li {
+    margin: 20px;
+}
+
+img {
+    height: 50%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px black solid;
+}
+
+h2 {
+    border: 2px black solid;
+    padding: 6px;
+    margin: 25px auto;
+    margin-bottom: 0px;
+    width: 50%;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
+}
+
+.go-back {
+    display: block;
+    text-align: center;
+    margin: 25px auto;
 }
